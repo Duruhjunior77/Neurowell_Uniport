@@ -1,0 +1,17 @@
+sampling_rate: 256
+notch: 50
+hp: 1.0
+lp: 45.0
+muse_channels: [TP9, AF7, AF8, TP10]
+openbci_channels: [F3, F4, P7, P8]
+record_seconds: 60
+
+device:
+  type: muse_ble
+  muse_mac: "XX:XX:XX:XX:XX:XX"
+  serial_port: "COM5"
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  artifacts_dir: artifacts

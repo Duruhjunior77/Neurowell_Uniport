@@ -1,0 +1,19 @@
+﻿# Bytecode/cache
+__pycache__/
+*.pyc
+
+# Data & artifacts (recreate locally)
+data/raw/
+data/processed/
+artifacts/
+labels/
+*.npz
+*.pkl
+*.zip
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

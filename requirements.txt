@@ -1,0 +1,11 @@
+brainflow==5.10.2
+mne==1.7.1
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+scikit-learn==1.5.2
+matplotlib==3.9.2
+joblib==1.4.2
+pyriemann==0.4
+streamlit==1.39.0
+pyyaml==6.0.2
